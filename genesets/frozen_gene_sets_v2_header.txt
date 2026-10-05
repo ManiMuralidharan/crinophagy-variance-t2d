@@ -1,0 +1,8 @@
+# Frozen gene sets, version 2
+# Date: 2026-09-01
+# Change from v1: MAP1LC3B (Q9GZQ8) not detected in HumanIslets proteomics.
+# Comparator set expanded to full ATG8 family plus cargo receptors.
+# Substitution made before any statistical test.
+# ATG12 (O94817) also not detected; excluded.
+# Accessions restricted to those present in the HumanIslets matrix, one per gene.
+
