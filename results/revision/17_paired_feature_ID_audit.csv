@@ -1,0 +1,5 @@
+"gene","ensembl","entrez","protein_feature","rna_feature","status"
+"GABARAP","ENSG00000170296","11337","11337","11337","paired_feature_found"
+"UNC13D","ENSG00000092929","201294","201294","201294","paired_feature_found"
+"STX7","ENSG00000079950","8417",NA,"8417","protein_missing"
+"RAB3A","ENSG00000105649","5864","5864","5864","paired_feature_found"

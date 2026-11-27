@@ -1,0 +1,11 @@
+Analysis completed. Interpretation cautions:
+1. The unprocessed file gives intensity, not proof of protein presence/absence.
+2. Raw median normalization is a sensitivity analysis, not the verified source pipeline.
+3. Brown-Forsythe P values on regression residuals are approximate; not confirmatory.
+4. Bootstrap percentile intervals refit the nuisance model but may undercover
+   with small T2D samples or informative missingness; use as exploratory.
+5. Without a verified proteomics acquisition batch, batch missingness
+   cannot be directly evaluated. Do not substitute RNA library batch.
+6. Complete-case analyses can be biased if missingness is informative.
+7. If the adjusted raw and processed ratios disagree, first verify source
+   normalization, imputation and identifier handling before interpretation.

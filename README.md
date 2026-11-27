@@ -1,206 +1,95 @@
-# Inter-individual variance of crinophagy machinery in type 2 diabetic human islets
+# crinophagy-variance-t2d
 
-Analysis code for the study of inter-individual variance, rather than
-mean abundance, in crinophagy-related proteins in human pancreatic
-islets from donors with and without type 2 diabetes.
+Code, frozen gene sets and summary results for:
 
-**Mani M, Martin TFJ.** Department of Biochemistry, University of
-Wisconsin-Madison.
+> Mani M., et al. *Inter-individual variability of crinophagy-related molecules in human islets from donors with type 2 diabetes.* International Journal of Molecular Sciences (manuscript IJMS-4686697, revised version).
 
----
+The study is exploratory. It examines inter-donor dispersion (residual SD ratios) of a frozen 31-member crinophagy-related gene set and a 14-member macroautophagy comparator in HumanIslets discovery proteomics and an independent bulk RNA-seq cohort (GSE164416).
 
-## What this repository contains
+## Two analysis stages
 
-Scripts only. No data files are included: the primary data belong to
-HumanIslets.com and to the NCBI Gene Expression Omnibus, and must be
-obtained from those sources (see **Data** below).
+This repository contains two clearly separated stages. Please keep them distinct when citing numbers.
 
-```
-genesets/      Pre-registered gene sets, with version history
-discovery/     Discovery cohort analysis (HumanIslets proteomics)
-replication/   Replication cohort analysis (GSE164416 RNA-seq)
-specificity/   Comparator and specificity panels
-figures/       Figure generation
-tables/        Supplementary table generation
-```
+| Stage | Folder | When | What it is |
+|---|---|---|---|
+| **Historical analysis** | `scripts/historical/`, `results/historical/` | September 2026 | The analyses reported in the originally submitted manuscript. Kept unchanged for transparency. |
+| **Revision analyses** | `scripts/revision/`, `results/revision/` | November 2026 | Checks, corrections and sensitivity analyses added in response to peer review. |
 
-Scripts are numbered in run order. The numbering is continuous across
-folders, so `08` in `replication/` follows `07` in `discovery/`.
+Some historical statements were corrected during revision. The main corrections are:
 
----
+- Historical per-protein SD ratios were computed from the **processed** proteomics matrix (26 of 31 crinophagy genes), not the unprocessed matrix as originally stated. A separate raw-matrix sensitivity (all 31 genes) is in `results/revision/41_*` and `45_*`.
+- The gene sets were frozen (`genesets/`), but the statistical models, candidate hierarchy and testing families were **not** preregistered. All analyses are exploratory.
+- The Figure 1C three-group permutation P value is **0.013** (recomputed from `04_robustness.py`), not 0.017.
+- Discovery donor deletion: **three of 16** T2D donors raise the omnibus P above 0.05 (fixed residuals; `figures/` and `results/historical/C_dispersion_loo.csv`).
+- Multiplicity: BH correction is reported within the 31-gene and 14-gene families, jointly across 45 genes, and Holm across UNC13D/RAB3A (`results/revision/01_replication_multiplicity.csv`).
+- The extended exploratory panel contains **93** genuinely additional genes, not 107 (`results/historical/C16_*`).
+- Figure 2C was regenerated with 1,000,000 random gene sets and Figure S4 without a filter that dropped negative processed means (`figures/revision/`).
 
-## Pre-registered gene sets
-
-Two protein sets were defined before any statistical evaluation and
-deposited with a timestamped DOI:
-
-**https://doi.org/10.5281/zenodo.23060343**
-
-- `frozen_gene_sets.txt` — version 1
-- `frozen_gene_sets_v2_clean.txt` — version 2, used for all analyses
-- `frozen_gene_sets_v2_header.txt` — record of the single revision,
-  with its date and reason
-
-The comparator set was revised once before any statistical test:
-MAP1LC3B and ATG12 were not detected in the discovery proteomics, so
-the set was expanded to the full ATG8 family and the selective
-autophagy cargo receptors. ATG12 was excluded as it was detected in
-neither dataset. The header file documents this.
-
----
-
-## Data
-
-Neither dataset is redistributed here.
-
-**Discovery cohort.** Islet proteomics, bulk RNA-seq and donor
-metadata from [HumanIslets.com](https://www.humanislets.com).
-Registration is required. Download the proteomics (`proc_prot.rds`,
-`unproc_prot.rds`), bulk RNA-seq (`proc_rnaseq.rds`) and the donor
-list (`donor.csv`).
-
-**Replication cohort.** GEO accession
-[GSE164416](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE164416)
-(Wigger et al., *Nat Metab* 2021). Retrieved with GEOquery; see
-`replication/08_gse164416_inspect.py`.
-
-**Single-cell reference.** Mean-difference values were taken from the
-published supplementary tables of Lawlor et al., *Genome Res* 2017
-(GSE86473). No reanalysis of the primary single-cell data was
-performed.
-
----
-
-## Environment
-
-- **R 4.6.1** (2026-06-24)
-- **Python 3.14.6**
-
-R packages: GSVA, DESeq2, GEOquery, org.Hs.eg.db, AnnotationDbi, car,
-vegan, limma, ggplot2, dplyr, tidyr, patchwork, ggrepel, openxlsx,
-pyreadr (via reticulate where used).
-
-Python packages: numpy, pandas, scipy, statsmodels, matplotlib,
-seaborn, pyreadr, gseapy.
-
-Run `sessionInfo()` and `pip list` to record exact versions if
-reproducing.
-
----
-
-## Running the analysis
-
-**Paths are hardcoded** to `/Users/mmani3/Downloads/Human Islets` in
-most scripts. Change the `setwd()` line at the top of each before
-running.
-
-Suggested order:
+## Repository layout
 
 ```
-discovery/00_inspect_download.R        structure of the downloaded files
-discovery/01_map_and_detect.R          identifier mapping, detection frequency
-discovery/02_model_crinophagy.R        pathway scoring, discovery models
-discovery/03_pipeline.py               same analysis, independent Python implementation
-discovery/04_robustness.py             permutation, bootstrap, leave-one-out
-discovery/05_unc13d_check.py           UNC13D dropout diagnostics
-discovery/06_rab3a_and_transcript.py   RAB3A robustness; transcript-level check
-discovery/07_unc13_paralogues.py       Munc13 family, discovery proteomics
-
-replication/08_gse164416_inspect.py    fetch and inspect GEO metadata
-replication/09_replication_gse164416.R replication cohort analysis
-replication/13_canonical_analysis.R    canonical dual-model analysis
-replication/15_volcano_and_df_check.R  degrees-of-freedom sensitivity
-replication/11_glycemic_continuum.R    IGT and T3cD comparisons
-
-specificity/12_specificity_panel.R     pre-registered comparator panel
-specificity/16_rab_layer_figure.R      Rab GTPase and GEF/GAP layer
-specificity/17_exocytosis_panel.R      regulated exocytosis panel
-specificity/18_munc13_figure.R         Munc13 paralogues
-specificity/28_caps_family.R           CAPS family
-specificity/25_extended_autophagy_panel.R   exploratory autophagy-lysosome panel
-specificity/26_donor_acceptor_panel.R  donor-side vs acceptor-side panel
-
-figures/...                            figure generation
-tables/27_supplementary_tables.R       supplementary workbook
+genesets/                 frozen gene sets v1, v2, v2_clean, v3 (final 31 + 14) and identifier mapping
+scripts/historical/       00-36: original discovery, replication, panel and figure scripts
+scripts/revision/         40-77: revision checks and sensitivity analyses
+results/historical/       summary tables from the original analysis (C_*.csv, replication tables)
+results/revision/         summary tables and audit notes from the revision
+figures/                  original figure PDFs
+figures/revision/         regenerated Figure 2C and Figure S4 (PDF and editable SVG)
+session_info/             R and Python environment records
 ```
 
-**`13_canonical_analysis.R` is the key script.** It builds `mat`,
-`pd2`, `bg1` and `bg2`, the objects most later scripts depend on. The
-session workspace (`session_gse164416.RData`) is not distributed and
-must be rebuilt by running script 13, then saved:
+## Data access
 
-```r
-save(mat, pd2, bg1, bg2, ratio_all, file = "session_gse164416.RData")
-```
+Raw and donor-level data are **not** included.
 
----
+- **Discovery cohort:** HumanIslets.com (registration required). Files used: `proteomics/proc_prot.rds`, `proteomics/unproc_prot.rds`, `Bulk RNA/proc_rnaseq.rds`, `donor.csv`.
+- **Independent cohort:** GEO accession [GSE164416](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE164416) (HTSeq counts and series metadata).
+- **Single-cell context:** published supplementary tables of Lawlor et al. (GEO GSE86473); no reanalysis.
 
-## Notes on specific scripts
+## How to run
 
-**`discovery/01_map_and_detect.R`** supersedes an earlier detection
-script written before it was established that the two proteomics
-matrices use different identifier systems (UniProt in the unprocessed
-matrix, Entrez in the processed one). Gene sets are mapped separately
-for each.
+1. Download the data above into one folder, keeping the subfolders `proteomics/`, `Bulk RNA/` and `replication_GSE164416/`.
+2. Point the scripts at that folder:
+   ```bash
+   export HUMAN_ISLETS_DIR=/path/to/data/folder
+   ```
+3. Run scripts in numerical order within each stage. Python scripts take the data folder and an output folder as arguments, for example:
+   ```bash
+   python3 scripts/revision/74_zscore_pathway_score.py "$HUMAN_ISLETS_DIR" out/
+   ```
 
-**Identifier handling.** All accessions are resolved programmatically
-through `org.Hs.eg.db` rather than entered by hand. An incorrect
-accession produces a silent absence rather than an error, and absence
-is not distinguishable from biological non-detection without
-verification.
+Software: R 4.6.1 (GSVA, DESeq2 1.52.0, vegan, car 3.1-5, org.Hs.eg.db 3.23.1) and Python 3 (NumPy, pandas, SciPy, statsmodels, pyreadr). Exact versions are in `session_info/`; historical analyses used GSVA 2.6.6 and vegan 2.7.5.
 
-**`replication/11_glycemic_continuum.R`** analyses IGT and T3cD donors.
-These comparisons are reported in the manuscript but do not carry the
-primary claim.
+## Script guide
 
-**`specificity/25_extended_autophagy_panel.R` and
-`specificity/26_donor_acceptor_panel.R`** produced null results, which
-are reported as such in the manuscript. The code is included because
-the analyses were performed.
+**Historical (00-36)**
 
-**`figures/22_transcript_protein_groups.R`** produced a panel that was
-not used in the final manuscript: 19 of the 46 panel genes, including
-STX7 and CTSD, were not quantified in both molecular layers, so the
-figure could not display the principal candidates. Retained for
-completeness.
+| Scripts | Purpose |
+|---|---|
+| 00-02 | Data inspection, gene mapping, discovery pathway scores and models |
+| 03-07 | Python pipeline, robustness (permutation and bootstrap), candidate checks |
+| 08-13 | GSE164416 replication, high-variance enrichment, Model 1/Model 2 analysis |
+| 14-30 | Figures, panels (exocytosis, Munc13, CAPS, extended autophagy-lysosome), supplementary tables |
+| 31-36 | Table rebuilding, INS sensitivity, reconciliation, Figure 5A template |
 
-**`discovery/05_unc13d_check.py`** addresses a detection confound in
-the discovery proteomics. UNC13D was quantified in 97 of 129 donors
-(75.2%), with detection differing by glycemic group. This motivated
-the transcript-level replication, where no detection limit applies.
+Notes: `31_rebuild_supplementary_tables_fixed.R` supersedes the unfixed version. `36_fig5A.R` is a template whose discovery intervals are supplied by `results/revision/75_discovery_fig5A_intervals.csv`.
 
----
+**Revision (40-77)**
 
-## Reproducibility
+| Scripts | Purpose | Key outputs |
+|---|---|---|
+| 40-45 | Disease-label permutation, joint bootstrap, resampling audit, multiplicity families | `C1_C2_between_set.csv`, `C9_multiplicity_both_panels.csv` |
+| 50-57 | Discovery checks, cross-cohort comparison, dispersion models, calibration, pathway CI | `C_nested_dispersion.csv`, `C_calibration.csv`, `C_pathway_ci_vs_bf.csv` |
+| 59-60 | Post-hoc fusion-subset sensitivity and independent-cohort validation | `results/revision/01-07` |
+| 61-66 | Paired protein/RNA analysis, coverage, interval coverage | `19_same_donor_covariate_adjusted_SDR.csv`, `15_*`, `16_*` |
+| 65, 67-72 | Raw-matrix audit, UNC13D missingness, preprocessing provenance, five excluded genes, raw 31-gene sensitivity | `38_*` to `47_*` |
+| 74 | Standardized-abundance (mean z-score) pathway score, both cohorts | `74_zscore_pathway_score_results.csv` |
+| 75 | Recomputed Figure 5A discovery intervals | `75_discovery_fig5A_intervals.csv` |
+| 76/77 | Regenerated Figure 2C (1,000,000 random sets) and Figure S4 | `76_*.csv`, `77_*.csv`, `figures/revision/` |
 
-Random seeds are fixed for all permutation and bootstrap procedures.
-Permutation P values may vary in the third decimal place between runs
-and between the R and Python implementations, which use different
-random number generators; the values reported in the manuscript derive
-from a single frozen set of output files.
+Superseded versions are not included: `43_multiplicity_fixed.R`, `65_raw_proteomics_uniprot_audit_fixed.R` and `70_discovery_five_excluded_crinophagy_genes_FIXED.R` replace their unfixed versions.
 
-The primary variance analysis was implemented independently in R and
-Python and gave identical results. This is reported as a check against
-implementation error, not as independent evidence.
+## Citation and archive
 
----
-
-## Citation
-
-If you use this code, please cite the manuscript (details to follow)
-and the gene set deposit:
-
-> Mani M, Martin TFJ. Pre-registered crinophagy and macroautophagy
-> gene sets. Zenodo, 2026. https://doi.org/10.5281/zenodo.23060343
-
----
-
-## License
-
-[ MIT for code]
-
----
-
-## Contact
-
-Muralidharan Mani — mmani3@wisc.edu
+Frozen gene sets: https://doi.org/10.5281/zenodo.23060343
+Code and results (this release, v1.0-revision): https://doi.org/[Zenodo DOI after release]

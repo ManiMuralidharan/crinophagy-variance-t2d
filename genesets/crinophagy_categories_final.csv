@@ -1,0 +1,32 @@
+SYMBOL,ENTREZID,functional_category,note
+UNC13D,201294,Direct SG-lysosome fusion,
+STX7,8417,Direct SG-lysosome fusion,
+STX8,9482,Direct SG-lysosome fusion,
+STX17,55014,Direct SG-lysosome fusion,"Component of the STX17-SNAP29-VAMP8 autophagosome-lysosome fusion complex. Labelled 'Autophagosome: fusion SNAREs' in the exploratory panel. Included because it was examined in the source study, not because a granule-lysosome role is established."
+VAMP7,6845,Direct SG-lysosome fusion,
+VAMP8,8673,Direct SG-lysosome fusion,"Component of the STX17-SNAP29-VAMP8 autophagosome-lysosome fusion complex. Labelled 'Autophagosome: fusion SNAREs' in the exploratory panel. Included because it was examined in the source study, not because a granule-lysosome role is established."
+SNAP23,8773,Direct SG-lysosome fusion,
+VPS33A,65082,Direct SG-lysosome fusion,HOPS
+VPS16,64601,Direct SG-lysosome fusion,HOPS
+VPS11,55823,Direct SG-lysosome fusion,HOPS
+CTSB,1508,Lysosomal degradation and acidification,
+CTSD,1509,Lysosomal degradation and acidification,
+CTSL,1514,Lysosomal degradation and acidification,
+LAMP1,3916,Lysosomal degradation and acidification,
+LAMP2,3920,Lysosomal degradation and acidification,
+ATP6V0D1,9114,Lysosomal degradation and acidification,
+ATP6V1A,523,Lysosomal degradation and acidification,
+TFEB,7942,Lysosomal degradation and acidification,Transcriptional regulator
+PIKFYVE,200576,Lysosomal degradation and acidification,Endolysosomal lipid kinase
+INS,3630,Secretory cargo and processing,Also contributes to the beta-cell content score; see INS sensitivity analysis
+CHGA,1113,Secretory cargo and processing,
+CHGB,1114,Secretory cargo and processing,
+PCSK1,5122,Secretory cargo and processing,
+PCSK2,5126,Secretory cargo and processing,
+CPE,1363,Secretory cargo and processing,
+RAB3A,5864,Granule-associated and exocytic,
+RAB3GAP1,22930,Granule-associated and exocytic,
+RAB27A,5873,Granule-associated and exocytic,
+CADPS,8618,Granule-associated and exocytic,Granule marker; acts in plasma-membrane exocytosis
+SYTL4,94121,Granule-associated and exocytic,Rab27 effector
+PCLO,27445,Active zone scaffold,"Presynaptic active zone cytomatrix protein; proposed Ca2+ sensor in insulin secretion or action; PCLO variants associated with early-onset T2D in a prior GWAS [ADD REF]. Included on genetic-association grounds, not on established granule-lysosome fusion function."

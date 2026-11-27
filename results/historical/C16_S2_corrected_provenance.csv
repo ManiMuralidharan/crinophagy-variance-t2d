@@ -1,0 +1,137 @@
+"gene","subgroup","tier","provenance","p"
+"GABARAP","Autophagosome: ATG8 family","1. Autophagosome donor","Frozen macroautophagy comparator",0.0054
+"UNC13D","Granule: Munc13 priming","2. Granule donor","Frozen crinophagy set",0.0283
+"STX7","Lysosome: SNAREs","3. Shared lysosomal acceptor","Frozen crinophagy set",0.0193
+"CTSD","Lysosome: membrane and lumen","3. Shared lysosomal acceptor","Frozen crinophagy set",0.0923
+"ATG2A","Autophagosome: early membrane","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.1032
+"TSG101","Autophagosome: ESCRT / closure","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.1898
+"CTSB","Lysosome: membrane and lumen","3. Shared lysosomal acceptor","Frozen crinophagy set",0.4134
+"IKBKB","Upstream signalling","4. Upstream signalling","Post-hoc (added after the primary analysis)",0.0782
+"BNIP3L","Autophagosome: cargo receptors","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.0325
+"SYTL2","Granule: Rab27A effectors","2. Granule donor","Post-hoc (added after the primary analysis)",0.0993
+"TAX1BP1","Autophagosome: cargo receptors","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.0626
+"TBC1D25","Lysosome: Rab and effectors","3. Shared lysosomal acceptor","Post-hoc (added after the primary analysis)",0.1937
+"CHMP2A","Autophagosome: ESCRT / closure","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.1197
+"ATG16L1","Autophagosome: conjugation","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.5562
+"SIRT6","Upstream signalling","4. Upstream signalling","Post-hoc (added after the primary analysis)",0.1677
+"PIP5K1C","Lysosome: lipid enzymes","3. Shared lysosomal acceptor","Post-hoc (added after the primary analysis)",0.1227
+"VPS25","Autophagosome: ESCRT / closure","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.1456
+"CALCOCO2","Autophagosome: cargo receptors","1. Autophagosome donor","Frozen macroautophagy comparator",0.2147
+"RAB3GAP2","Granule: Rab3 axis","2. Granule donor","Post-hoc (added after the primary analysis)",0.2282
+"GABARAPL1","Autophagosome: ATG8 family","1. Autophagosome donor","Frozen macroautophagy comparator",0.1889
+"PCLO","Granule: identity and cargo","2. Granule donor","Frozen crinophagy set",0.2888
+"CTSL","Lysosome: membrane and lumen","3. Shared lysosomal acceptor","Frozen crinophagy set",0.1847
+"CREBBP","Upstream signalling","4. Upstream signalling","Post-hoc (added after the primary analysis)",0.0426
+"ATG3","Autophagosome: conjugation","1. Autophagosome donor","Frozen macroautophagy comparator",0.2184
+"ZFYVE1","Autophagosome: early membrane","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.3087
+"VPS33A","Lysosome: HOPS","3. Shared lysosomal acceptor","Frozen crinophagy set",0.5309
+"ATG12","Autophagosome: conjugation","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.1318
+"STX8","Lysosome: SNAREs","3. Shared lysosomal acceptor","Frozen crinophagy set",0.205
+"VPS13C","Autophagosome: early membrane","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.2385
+"GABARAPL2","Autophagosome: ATG8 family","1. Autophagosome donor","Frozen macroautophagy comparator",0.3903
+"PCSK2","Granule: identity and cargo","2. Granule donor","Frozen crinophagy set",0.2609
+"RAB3D","Granule: Rab3 axis","2. Granule donor","Post-hoc (added after the primary analysis)",0.2808
+"RAB39A","Lysosome: Rab and effectors","3. Shared lysosomal acceptor","Post-hoc (added after the primary analysis)",0.2076
+"ATG13","Autophagosome: initiation","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.3433
+"VPS13A","Autophagosome: early membrane","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.3086
+"TFEB","Lysosome: membrane and lumen","3. Shared lysosomal acceptor","Frozen crinophagy set",0.573
+"RUBCN","Autophagosome: nucleation","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.6056
+"VPS11","Lysosome: HOPS","3. Shared lysosomal acceptor","Frozen crinophagy set",0.301
+"SNAP29","Autophagosome: fusion SNAREs","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.2049
+"CPE","Granule: identity and cargo","2. Granule donor","Frozen crinophagy set",0.2948
+"RAB3B","Granule: Rab3 axis","2. Granule donor","Post-hoc (added after the primary analysis)",0.2829
+"PCSK1","Granule: identity and cargo","2. Granule donor","Frozen crinophagy set",0.3387
+"BECN1","Autophagosome: nucleation","1. Autophagosome donor","Frozen macroautophagy comparator",0.4249
+"CHMP4B","Autophagosome: ESCRT / closure","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.8783
+"VPS37A","Autophagosome: ESCRT / closure","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.2805
+"VMP1","Autophagosome: early membrane","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.3486
+"ATG4B","Autophagosome: conjugation","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.4467
+"RAB3GAP1","Granule: Rab3 axis","2. Granule donor","Frozen crinophagy set",0.9473
+"EXPH5","Granule: Rab27A effectors","2. Granule donor","Post-hoc (added after the primary analysis)",0.5122
+"SNAP47","Autophagosome: fusion SNAREs","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.5483
+"INPP5E","Lysosome: lipid enzymes","3. Shared lysosomal acceptor","Post-hoc (added after the primary analysis)",0.2713
+"VPS18","Lysosome: HOPS","3. Shared lysosomal acceptor","Post-hoc (added after the primary analysis)",0.8739
+"SCFD1","Autophagosome: fusion SNAREs","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.3206
+"ATP6V0D1","Lysosome: membrane and lumen","3. Shared lysosomal acceptor","Frozen crinophagy set",0.8066
+"VPS41","Lysosome: HOPS","3. Shared lysosomal acceptor","Post-hoc (added after the primary analysis)",0.3767
+"FYCO1","Lysosome: Rab and effectors","3. Shared lysosomal acceptor","Post-hoc (added after the primary analysis)",0.6985
+"RAB24","Lysosome: Rab and effectors","3. Shared lysosomal acceptor","Post-hoc (added after the primary analysis)",0.6169
+"RAB3IP","Granule: Rab3 axis","2. Granule donor","Post-hoc (added after the primary analysis)",0.7747
+"CHGA","Granule: identity and cargo","2. Granule donor","Frozen crinophagy set",0.4358
+"ATG14","Autophagosome: nucleation","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.4496
+"RAB2A","Lysosome: Rab and effectors","3. Shared lysosomal acceptor","Post-hoc (added after the primary analysis)",0.3021
+"VTI1B","Lysosome: SNAREs","3. Shared lysosomal acceptor","Post-hoc (added after the primary analysis)",0.5603
+"NRBF2","Autophagosome: nucleation","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.8191
+"VAMP7","Granule: SNAREs","2. Granule donor","Frozen crinophagy set",0.3743
+"SIRT5","Upstream signalling","4. Upstream signalling","Post-hoc (added after the primary analysis)",0.5941
+"VPS4B","Autophagosome: ESCRT / closure","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.5238
+"LAMP1","Lysosome: membrane and lumen","3. Shared lysosomal acceptor","Frozen crinophagy set",0.6859
+"RAB3A","Granule: Rab3 axis","2. Granule donor","Frozen crinophagy set",0.7673
+"RUBCNL","Autophagosome: nucleation","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.3534
+"STK4","Upstream signalling","4. Upstream signalling","Post-hoc (added after the primary analysis)",0.7205
+"RAB33B","Lysosome: Rab and effectors","3. Shared lysosomal acceptor","Post-hoc (added after the primary analysis)",0.7309
+"UNC13A","Granule: Munc13 priming","2. Granule donor","Post-hoc (added after the primary analysis)",0.4198
+"ATG101","Autophagosome: initiation","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.9147
+"RB1CC1","Autophagosome: initiation","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.7857
+"NPC1","Lysosome: membrane and lumen","3. Shared lysosomal acceptor","Post-hoc (added after the primary analysis)",0.8966
+"PIKFYVE","Lysosome: membrane and lumen","3. Shared lysosomal acceptor","Frozen crinophagy set",0.8651
+"VAMP8","Autophagosome: fusion SNAREs","1. Autophagosome donor","Frozen crinophagy set",0.1963
+"PRKAA1","Upstream signalling","4. Upstream signalling","Post-hoc (added after the primary analysis)",0.6534
+"MAP1LC3A","Autophagosome: ATG8 family","1. Autophagosome donor","Frozen macroautophagy comparator",0.9493
+"STX17","Autophagosome: fusion SNAREs","1. Autophagosome donor","Frozen crinophagy set",0.9527
+"VAMP3","Granule: SNAREs","2. Granule donor","Post-hoc (added after the primary analysis)",0.6483
+"MYO5A","Granule: Rab27A effectors","2. Granule donor","Post-hoc (added after the primary analysis)",0.76
+"PLEKHM1","Lysosome: tethering","3. Shared lysosomal acceptor","Post-hoc (added after the primary analysis)",0.9559
+"ULK1","Autophagosome: initiation","1. Autophagosome donor","Frozen macroautophagy comparator",0.8652
+"VPS4A","Autophagosome: ESCRT / closure","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.7798
+"LAMP2","Lysosome: membrane and lumen","3. Shared lysosomal acceptor","Frozen crinophagy set",0.9077
+"ATP6V1A","Lysosome: membrane and lumen","3. Shared lysosomal acceptor","Frozen crinophagy set",0.7372
+"VPS28","Autophagosome: ESCRT / closure","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.6945
+"PIK3C3","Autophagosome: nucleation","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.4604
+"VAMP2","Granule: SNAREs","2. Granule donor","Post-hoc (added after the primary analysis)",0.635
+"INS","Granule: identity and cargo","2. Granule donor","Frozen crinophagy set",0.8927
+"CHGB","Granule: identity and cargo","2. Granule donor","Frozen crinophagy set",0.4044
+"RAB7A","Lysosome: Rab and effectors","3. Shared lysosomal acceptor","Post-hoc (added after the primary analysis)",0.8001
+"SYTL4","Granule: Rab27A effectors","2. Granule donor","Frozen crinophagy set",0.7771
+"ULK2","Autophagosome: initiation","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.935
+"OPTN","Autophagosome: cargo receptors","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.753
+"EPG5","Lysosome: tethering","3. Shared lysosomal acceptor","Post-hoc (added after the primary analysis)",0.7003
+"ATG2B","Autophagosome: early membrane","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.9456
+"ATG7","Autophagosome: conjugation","1. Autophagosome donor","Frozen macroautophagy comparator",0.8692
+"MLPH","Granule: Rab27A effectors","2. Granule donor","Post-hoc (added after the primary analysis)",0.6389
+"SIRT4","Upstream signalling","4. Upstream signalling","Post-hoc (added after the primary analysis)",0.6021
+"VPS39","Lysosome: HOPS","3. Shared lysosomal acceptor","Post-hoc (added after the primary analysis)",0.9175
+"SYTL1","Granule: Rab27A effectors","2. Granule donor","Post-hoc (added after the primary analysis)",0.4264
+"RAB21","Lysosome: Rab and effectors","3. Shared lysosomal acceptor","Post-hoc (added after the primary analysis)",0.9607
+"RPH3AL","Granule: Rab27A effectors","2. Granule donor","Post-hoc (added after the primary analysis)",0.7421
+"RILP","Lysosome: Rab and effectors","3. Shared lysosomal acceptor","Post-hoc (added after the primary analysis)",0.8607
+"ATG9A","Autophagosome: early membrane","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.9797
+"PRKAA2","Upstream signalling","4. Upstream signalling","Post-hoc (added after the primary analysis)",0.5864
+"YKT6","Autophagosome: fusion SNAREs","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.3503
+"MCOLN1","Lysosome: membrane and lumen","3. Shared lysosomal acceptor","Post-hoc (added after the primary analysis)",0.9917
+"ARL8A","Lysosome: Rab and effectors","3. Shared lysosomal acceptor","Post-hoc (added after the primary analysis)",0.6043
+"PI4K2A","Lysosome: lipid enzymes","3. Shared lysosomal acceptor","Post-hoc (added after the primary analysis)",0.9796
+"ATG10","Autophagosome: conjugation","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.8835
+"NBR1","Autophagosome: cargo receptors","1. Autophagosome donor","Frozen macroautophagy comparator",0.545
+"SQSTM1","Autophagosome: cargo receptors","1. Autophagosome donor","Frozen macroautophagy comparator",0.8207
+"MTOR","Upstream signalling","4. Upstream signalling","Post-hoc (added after the primary analysis)",0.617
+"TECPR1","Lysosome: tethering","3. Shared lysosomal acceptor","Post-hoc (added after the primary analysis)",0.5993
+"VAMP4","Granule: SNAREs","2. Granule donor","Post-hoc (added after the primary analysis)",0.9775
+"VPS16","Lysosome: HOPS","3. Shared lysosomal acceptor","Frozen crinophagy set",0.2386
+"HDAC2","Upstream signalling","4. Upstream signalling","Post-hoc (added after the primary analysis)",0.9038
+"OSBPL1A","Lysosome: Rab and effectors","3. Shared lysosomal acceptor","Post-hoc (added after the primary analysis)",0.7395
+"ATG5","Autophagosome: conjugation","1. Autophagosome donor","Frozen macroautophagy comparator",0.9354
+"WIPI2","Autophagosome: early membrane","1. Autophagosome donor","Frozen macroautophagy comparator",0.2396
+"RPTOR","Upstream signalling","4. Upstream signalling","Post-hoc (added after the primary analysis)",0.6225
+"RAB27A","Granule: Rab27A effectors","2. Granule donor","Frozen crinophagy set",0.4467
+"KAT2B","Upstream signalling","4. Upstream signalling","Post-hoc (added after the primary analysis)",0.3446
+"UVRAG","Autophagosome: nucleation","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.4512
+"MAP1LC3B","Autophagosome: ATG8 family","1. Autophagosome donor","Frozen macroautophagy comparator",0.6303
+"STING1","Upstream signalling","4. Upstream signalling","Post-hoc (added after the primary analysis)",0.6609
+"MADD","Granule: Rab27A effectors","2. Granule donor","Post-hoc (added after the primary analysis)",0.3946
+"SIRT3","Upstream signalling","4. Upstream signalling","Post-hoc (added after the primary analysis)",0.459
+"UNC13B","Granule: Munc13 priming","2. Granule donor","Post-hoc (added after the primary analysis)",0.0757
+"TMEM41B","Autophagosome: early membrane","1. Autophagosome donor","Post-hoc (added after the primary analysis)",0.0271
+"ARL8B","Lysosome: Rab and effectors","3. Shared lysosomal acceptor","Post-hoc (added after the primary analysis)",0.2337
+"BIRC6","Lysosome: tethering","3. Shared lysosomal acceptor","Post-hoc (added after the primary analysis)",0.0459
+"TBK1","Upstream signalling","4. Upstream signalling","Post-hoc (added after the primary analysis)",0.1663

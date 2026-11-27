@@ -1,0 +1,32 @@
+"gene","ensembl","entrez","annotation_status","raw_accessions","processed_rows","eligible_ND","eligible_T2D","raw_nonmissing_ND","raw_nonmissing_T2D","raw_positive_ND","raw_positive_T2D","processed_nonmissing_ND","processed_nonmissing_T2D","in_historical_discovery_test","observation","raw_detection_rate_ND","raw_detection_rate_T2D","exact_provider_filter_reason_verified"
+"UNC13D","ENSG00000092929",201294,"unique_ensembl_entrez",1,1,87,16,59,15,59,15,87,16,TRUE,"TESTED in original processed-matrix output",0.67816091954023,0.9375,FALSE
+"STX7","ENSG00000079950",8417,"unique_ensembl_entrez",1,0,87,16,87,16,87,16,NA,NA,FALSE,"NOT TESTED; gene absent from processed matrix",1,1,FALSE
+"CTSD","ENSG00000117984",1509,"unique_ensembl_entrez",1,1,87,16,87,16,87,16,87,16,TRUE,"TESTED in original processed-matrix output",1,1,FALSE
+"CTSB","ENSG00000164733",1508,"unique_ensembl_entrez",1,1,87,16,87,16,87,16,87,16,TRUE,"TESTED in original processed-matrix output",1,1,FALSE
+"PCLO","ENSG00000186472",27445,"unique_ensembl_entrez",1,1,87,16,87,16,87,16,87,16,TRUE,"TESTED in original processed-matrix output",1,1,FALSE
+"CTSL","ENSG00000135047",1514,"unique_ensembl_entrez",1,1,87,16,87,16,87,16,87,16,TRUE,"TESTED in original processed-matrix output",1,1,FALSE
+"VPS33A","ENSG00000139719",65082,"unique_ensembl_entrez",1,0,87,16,87,16,87,16,NA,NA,FALSE,"NOT TESTED; gene absent from processed matrix",1,1,FALSE
+"STX8","ENSG00000170310",9482,"unique_ensembl_entrez",1,1,87,16,87,16,87,16,87,16,TRUE,"TESTED in original processed-matrix output",1,1,FALSE
+"PCSK2","ENSG00000125851",5126,"unique_ensembl_entrez",1,1,87,16,87,16,87,16,87,16,TRUE,"TESTED in original processed-matrix output",1,1,FALSE
+"SNAP23","ENSG00000092531",8773,"unique_ensembl_entrez",1,1,87,16,87,16,87,16,87,16,TRUE,"TESTED in original processed-matrix output",1,1,FALSE
+"TFEB","ENSG00000112561",7942,"unique_ensembl_entrez",1,1,87,16,84,16,84,16,87,16,TRUE,"TESTED in original processed-matrix output",0.96551724137931,1,FALSE
+"VPS11","ENSG00000160695",55823,"unique_ensembl_entrez",1,0,87,16,87,16,87,16,NA,NA,FALSE,"NOT TESTED; gene absent from processed matrix",1,1,FALSE
+"CPE","ENSG00000109472",1363,"unique_ensembl_entrez",1,1,87,16,87,16,87,16,87,16,TRUE,"TESTED in original processed-matrix output",1,1,FALSE
+"PCSK1","ENSG00000175426",5122,"unique_ensembl_entrez",1,1,87,16,87,16,87,16,87,16,TRUE,"TESTED in original processed-matrix output",1,1,FALSE
+"RAB3GAP1","ENSG00000115839",22930,"unique_ensembl_entrez",1,1,87,16,87,16,87,16,87,16,TRUE,"TESTED in original processed-matrix output",1,1,FALSE
+"ATP6V0D1","ENSG00000159720",9114,"unique_ensembl_entrez",1,1,87,16,87,16,87,16,87,16,TRUE,"TESTED in original processed-matrix output",1,1,FALSE
+"CHGA","ENSG00000100604",1113,"unique_ensembl_entrez",1,1,87,16,87,16,87,16,87,16,TRUE,"TESTED in original processed-matrix output",1,1,FALSE
+"VAMP7","ENSG00000124333",6845,"unique_ensembl_entrez",1,0,87,16,87,16,87,16,NA,NA,FALSE,"NOT TESTED; gene absent from processed matrix",1,1,FALSE
+"LAMP1","ENSG00000185896",3916,"unique_ensembl_entrez",1,1,87,16,87,16,87,16,87,16,TRUE,"TESTED in original processed-matrix output",1,1,FALSE
+"RAB3A","ENSG00000105649",5864,"unique_ensembl_entrez",1,1,87,16,87,16,87,16,87,16,TRUE,"TESTED in original processed-matrix output",1,1,FALSE
+"PIKFYVE","ENSG00000115020",200576,"unique_ensembl_entrez",1,1,87,16,87,16,87,16,87,16,TRUE,"TESTED in original processed-matrix output",1,1,FALSE
+"VAMP8","ENSG00000118640",8673,"unique_ensembl_entrez",1,1,87,16,87,16,87,16,87,16,TRUE,"TESTED in original processed-matrix output",1,1,FALSE
+"CADPS","ENSG00000163618",8618,"unique_ensembl_entrez",1,1,87,16,87,16,87,16,87,16,TRUE,"TESTED in original processed-matrix output",1,1,FALSE
+"STX17","ENSG00000136874",55014,"unique_ensembl_entrez",1,1,87,16,87,16,87,16,87,16,TRUE,"TESTED in original processed-matrix output",1,1,FALSE
+"LAMP2","ENSG00000005893",3920,"unique_ensembl_entrez",1,1,87,16,87,16,87,16,87,16,TRUE,"TESTED in original processed-matrix output",1,1,FALSE
+"ATP6V1A","ENSG00000114573",523,"unique_ensembl_entrez",1,1,87,16,87,16,87,16,87,16,TRUE,"TESTED in original processed-matrix output",1,1,FALSE
+"INS","ENSG00000254647",3630,"unique_ensembl_entrez",1,1,87,16,87,16,87,16,87,16,TRUE,"TESTED in original processed-matrix output",1,1,FALSE
+"CHGB","ENSG00000089199",1114,"unique_ensembl_entrez",1,1,87,16,87,16,87,16,87,16,TRUE,"TESTED in original processed-matrix output",1,1,FALSE
+"SYTL4","ENSG00000102362",94121,"unique_ensembl_entrez",1,1,87,16,87,16,87,16,87,16,TRUE,"TESTED in original processed-matrix output",1,1,FALSE
+"VPS16","ENSG00000215305",64601,"unique_ensembl_entrez",1,0,87,16,87,16,87,16,NA,NA,FALSE,"NOT TESTED; gene absent from processed matrix",1,1,FALSE
+"RAB27A","ENSG00000069974",5873,"unique_ensembl_entrez",1,1,87,16,87,16,87,16,87,16,TRUE,"TESTED in original processed-matrix output",1,1,FALSE

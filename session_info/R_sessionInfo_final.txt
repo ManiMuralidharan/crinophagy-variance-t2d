@@ -1,0 +1,39 @@
+R version 4.6.1 (2026-06-24)
+Platform: aarch64-apple-darwin23
+Running under: macOS Tahoe 26.7.3
+
+Matrix products: default
+BLAS:   /Library/Frameworks/R.framework/Versions/4.6/Resources/lib/libRblas.0.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.6/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+time zone: Asia/Kolkata
+tzcode source: internal
+
+attached base packages:
+[1] stats4    stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] car_3.1-5                   carData_3.0-6               vegan_2.7-6                 permute_0.9-10              DESeq2_1.52.0              
+ [6] SummarizedExperiment_1.42.0 Biobase_2.72.0              MatrixGenerics_1.24.0       matrixStats_1.5.0           GenomicRanges_1.64.0       
+[11] Seqinfo_1.2.0               IRanges_2.46.0              S4Vectors_0.50.3            BiocGenerics_0.58.1         generics_0.1.4             
+[16] GSVA_2.6.10                
+
+loaded via a namespace (and not attached):
+ [1] KEGGREST_1.52.2             gtable_0.3.6                rjson_0.2.23                ggplot2_4.0.3               rhdf5_2.56.1               
+ [6] lattice_0.22-9              rhdf5filters_1.24.1         vctrs_0.7.3                 tools_4.6.1                 parallel_4.6.1             
+[11] tibble_3.3.1                AnnotationDbi_1.74.0        RSQLite_3.53.3              cluster_2.1.8.2             blob_1.3.0                 
+[16] pkgconfig_2.0.3             Matrix_1.7-5                RColorBrewer_1.1-3          S7_0.2.2                    sparseMatrixStats_1.24.0   
+[21] graph_1.90.0                lifecycle_1.0.5             compiler_4.6.1              farver_2.1.2                Biostrings_2.80.2          
+[26] codetools_0.2-20            Formula_1.2-6               pillar_1.11.1               crayon_1.5.3                MASS_7.3-65                
+[31] BiocParallel_1.46.0         SingleCellExperiment_1.34.0 DelayedArray_0.38.2         cachem_1.1.0                magick_2.9.1               
+[36] abind_1.4-8                 nlme_3.1-169                locfit_1.5-9.12             tidyselect_1.2.1            dplyr_1.2.1                
+[41] splines_4.6.1               fastmap_1.2.0               grid_4.6.1                  cli_3.6.6                   SparseArray_1.12.3         
+[46] magrittr_2.0.5              S4Arrays_1.12.1             XML_3.99-0.25               h5mread_1.4.1               GSEABase_1.74.0            
+[51] DelayedMatrixStats_1.34.0   scales_1.4.0                bit64_4.8.6                 XVector_0.52.0              httr_1.4.9                 
+[56] bit_4.6.0                   otel_0.2.0                  png_0.1-9                   SpatialExperiment_1.22.0    memoise_2.0.1              
+[61] memuse_4.2-3                HDF5Array_1.40.0            mgcv_1.9-4                  rlang_1.3.0                 Rcpp_1.1.2                 
+[66] xtable_1.8-8                glue_1.8.1                  DBI_1.3.0                   annotate_1.90.0             R6_2.6.1                   
+[71] Rhdf5lib_2.0.0             

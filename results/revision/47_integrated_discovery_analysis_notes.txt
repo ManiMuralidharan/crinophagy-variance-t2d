@@ -1,0 +1,12 @@
+REVIEWER 2 METHODS/RESULTS NOTES (Script 72)
+Historical processed: proc_prot.rds, 26 evaluated genes, nuisance fit n=123; SD ratio uses 87 ND/16 T2D.
+Raw sensitivity: unproc_prot.rds, log2 + donor-median centered, no imputation, 31/31 genes evaluable.
+Raw nuisance fit uses all available ND/preT2D/T2D donors with complete clinical covariates; SD ratio compares ND/T2D only.
+Historical original Brown-Forsythe P values and q values are copied from per_protein_variance.csv and BH-verified.
+Raw Brown-Forsythe residual P values are APPROXIMATE; q values correct these approximate P values within the 31-gene raw panel.
+NO inference that a raw q below 0.05 is a calibrated confirmatory test.
+The five processed-excluded genes have raw-positive signals in all 129 donors, but low raw variance rank is only CONSISTENT with provider filtering.
+Do not label genes with absent processed rows as undetected or negative.
+Patient-level batch, original export/source version, residual-leverage testing and bootstrap coverage remain unresolved.
+UNC13D processed q 0.02154 versus raw 31-panel q 0.11855; do not describe it as robustly FDR significant across pipelines.
+Original historical source files were not modified.

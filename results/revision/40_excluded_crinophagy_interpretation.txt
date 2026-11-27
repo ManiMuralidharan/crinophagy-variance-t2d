@@ -1,0 +1,7 @@
+Reference set: 2 genes; historical processed-matrix tests: 26; excluded: 5
+Excluded symbols: STX7, VAMP7, VPS11, VPS16, VPS33A
+Per-gene statuses are observable facts, not verified source-processing causes.
+Absent from processed matrix does NOT equal unmeasured in raw proteomics.
+Raw NA fractions are calculated over all 129 raw donor columns; zeros are not recoded as NA.
+Exact stage of provider filtering requires matching release-specific processing code.
+Original discovery P/q values are exploratory until residual-test calibration and model assumptions are addressed.

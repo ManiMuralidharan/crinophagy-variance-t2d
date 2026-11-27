@@ -1,0 +1,5 @@
+"","Brown-Forsythe","dispersion model"
+"A  null, no composition dependence",0.04575,0.046
+"B1 null, dispersion ~ beta (moderate)",0.21675,0.0315
+"B2 null, dispersion ~ beta + imm",0.4985,0.04425
+"C  TRUE group effect, SD ratio 2",0.6845,0.4005

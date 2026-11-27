@@ -1,0 +1,12 @@
+This analysis used the ORIGINAL raw UniProt matrix, not the processed matrix.
+Steps: positive finite raw values -> log2 -> subtract each donor's across-feature median -> add overall median; no imputation.
+Multi-accession genes were averaged on transformed log2 scale: exploratory, not provider-verified aggregation.
+Covariate-only nuisance model fitted over available ND/preT2D/T2D donors; SD ratios computed ND vs T2D.
+Group-aware nuisance model is a separate descriptive sensitivity.
+Brown-Forsythe P values from median-centred ABS residuals are approximate, not validated conditional covariate inference.
+BH within evaluable raw crinophagy panel is exploratory; q_BH_31_p1_for_unevaluable imputes p=1 as a separate conservative family-size sensitivity.
+Raw variance ranks across >=50%-observed features are a proxy for potential low-variance filtering, not proof of provider exclusion.
+Provider filtering may have occurred after technical replicate handling, median normalization, missForest imputation, and identifier aggregation.
+A zero raw NA fraction does NOT mean a gene necessarily passes all processing filters; the five raw-complete genes could be low-variance or removed at other stages.
+Do not replace the historical 26-processed-protein q values by these new raw sensitivity q values without explicitly stating the new analysis.
+Do not treat q<0.05 here as confirmatory if source version, batch, leverage, missingness, and resampling calibration remain unresolved.

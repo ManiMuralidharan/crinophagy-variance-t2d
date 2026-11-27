@@ -1,0 +1,16 @@
+HumanIslets discovery export provenance audit
+Audit run: 2026-11-13 18:51:02 IST
+Published pipeline (HumanIslets paper/technical documentation): >50% missing filter; median normalize; log2; missForest (imp4p); UniProt->Entrez mean aggregation; bottom 20% variance filter.
+Provider processing pipeline APPLICABILITY to this exact 129-donor export: NOT VERIFIED.
+Original export download timestamp/release/version: NOT VERIFIED by file modification times.
+Source technical replicate handling before donor-level export: NOT VERIFIED.
+Proteomics MS acquisition batch adjustment: NOT VERIFIED; no batch field was identified in prior donor audit.
+Provider's precise median normalization and missForest settings/seed: NOT VERIFIED.
+Complete processed values for raw-missing UNC13D donors cannot be labeled proven-imputed without source-lineage confirmation.
+Unprocessed export contains donor-level intensity values, not raw mass-spectrometry spectra.
+Gene-level differences may arise from filtering, mapping, aggregation, or version changes; numbers alone do not identify a step.
+Published discovery UNC13D SD ratio 2.065 was stated as unprocessed per-protein result; do not label processed sensitivity result 2.083 as exact reproduction.
+Raw observed 59 ND/15 T2D; processed full 87 ND/16 T2D. Missingness can be informative.
+Brown-Forsythe on covariate residuals and percentile bootstrap require calibration; this script computes descriptive SD ratios only.
+For exact provenance: obtain timestamped HumanIslets download/analysis bundle; identify matching HumanIsletsR commit and data release; verify source preprocessing and per-protein/technical replicate handling.
+Local proteomics documentation files: /Users/mmani3/Downloads/Human Islets/proteomics/proc_prot_README.txt | /Users/mmani3/Downloads/Human Islets/proteomics/unproc_prot_README.txt

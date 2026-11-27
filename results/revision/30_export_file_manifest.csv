@@ -1,0 +1,5 @@
+"role","path","bytes","filesystem_modified","md5"
+"raw","/Users/mmani3/Downloads/Human Islets/proteomics/unproc_prot.rds",4617206,"2026-09-01 08:00:16 IST","0f27ac8eaab4f68e8cfb4daf28283a93"
+"processed","/Users/mmani3/Downloads/Human Islets/proteomics/proc_prot.rds",6151263,"2026-09-01 08:00:16 IST","7b229fda16a83262d762095b81a5787a"
+"donor","/Users/mmani3/Downloads/Human Islets/donor.csv",103217,"2026-09-01 09:53:12 IST","923372e2fe86857505d38de2609b4478"
+"mapping","/Users/mmani3/Downloads/Human Islets/reviewer_validation_output/15_raw_uniprot_entrez_mapping.csv",283738,"2026-11-13 18:36:32 IST","a4b07ca96d7eb7d19f2da005be28aa66"

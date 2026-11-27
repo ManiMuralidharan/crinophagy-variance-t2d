@@ -1,0 +1,9 @@
+"item","value"
+"raw_features",8194
+"processed_features",6138
+"donors_raw",129
+"donors_complete_cov",123
+"eligible_feature_variance_reference",7726
+"raw_feature_bottom20_var_threshold",0.0394719572756695
+"crinophagy_genes",31
+"raw_genes_evaluable",31

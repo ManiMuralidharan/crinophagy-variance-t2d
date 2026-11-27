@@ -1,0 +1,6 @@
+"gene","accession","raw_positive_finite_all_donors","raw_variance_percentile_from_low","at_or_below_bottom20_raw","processed_rows","inference"
+"STX7","O15400",129,0.149624644059021,TRUE,0,"Consistent with low-variance filtering; exact provider exclusion mechanism not confirmed"
+"VPS33A","Q96AX1",129,0.0236862542065752,TRUE,0,"Consistent with low-variance filtering; exact provider exclusion mechanism not confirmed"
+"VPS11","Q9H270",129,0.0899559927517473,TRUE,0,"Consistent with low-variance filtering; exact provider exclusion mechanism not confirmed"
+"VAMP7","P51809",129,0.0951333160755889,TRUE,0,"Consistent with low-variance filtering; exact provider exclusion mechanism not confirmed"
+"VPS16","Q9H269",129,0.0775304167745276,TRUE,0,"Consistent with low-variance filtering; exact provider exclusion mechanism not confirmed"

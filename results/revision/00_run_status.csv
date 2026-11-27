@@ -1,0 +1,5 @@
+"script","status","detail"
+"60_reviewer_replication_validation.R","RAN","Completed; inspect the output CSVs and console warnings"
+"62_discovery_coverage_audit.R","PARTIAL - RAW DATA","Processed coverage audited; raw detection unresolved: unprocessed_structure_unresolved: Matrix lacks protein IDs or donor IDs: /Users/mmani3/Downloads/Human Islets/proteomics/unproc_prot.rds"
+"63_bootstrap_coverage_sensitivity.R","RAN","Completed; inspect the output CSVs and console warnings"
+"61_paired_omics_check.R","INPUT NEEDED","Prepare paired_omics_long.csv from the input template, then rerun script 61"

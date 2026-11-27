@@ -1,0 +1,5 @@
+Class: data.frame
+Dimensions: 8194 x 130
+Column names: feature_id | R191 | R192 | R231 | R240 | R241 | R244 | R259 | R262 | R276 | R307 | R331 | R347 | R401 | R402 | R432 | R452 | R186 | R187 | R189 | R194 | R196 | R216 | R217 | R218 | R219 | R223 | R224 | R225 | R228 | R229 | R230 | R233 | R234 | R235
+Element names: feature_id | R191 | R192 | R231 | R240 | R241 | R244 | R259 | R262 | R276 | R307 | R331 | R347 | R401 | R402 | R432 | R452 | R186 | R187 | R189 | R194 | R196 | R216 | R217 | R218 | R219 | R223 | R224 | R225 | R228 | R229 | R230 | R233 | R234 | R235
+Rowname examples: 1 | 2 | 3 | 4 | 5

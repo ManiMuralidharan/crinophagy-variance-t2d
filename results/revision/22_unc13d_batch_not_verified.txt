@@ -1,0 +1,4 @@
+A batch-stratified test was NOT run because no verified acquisition
+batch column was supplied. Inspect the candidate columns printed
+above and set BATCH_COL only after confirming its meaning.
+Candidate columns: 
