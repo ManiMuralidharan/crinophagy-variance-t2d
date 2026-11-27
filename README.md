@@ -92,4 +92,4 @@ Superseded versions are not included: `43_multiplicity_fixed.R`, `65_raw_proteom
 ## Citation and archive
 
 Frozen gene sets: https://doi.org/10.5281/zenodo.23060343
-Code and results (this release, v1.0-revision): https://doi.org/[Zenodo DOI after release]
+Code and results (this release, v1.0-revision): https://doi.org/10.5281/zenodo.XXXXXXX
